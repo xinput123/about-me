@@ -1,6 +1,6 @@
 ## 1、前言
 [InnoDB的一条记录长什么样子]([https://github.com/xinput123/about-me/blob/main/MySQL/InnoDB%E7%9A%84%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E9%95%BF%E4%BB%80%E4%B9%88%E6%A0%B7%E5%AD%90.md)
-) 介绍了 InnoDB 中的一条记录长什么样子，其中提到了记录是存储在「页」中的，那么记录在页中是如何存储的呢？本文进一步介绍 InnoDB 中「页」的相关内容。
+ 介绍了 InnoDB 中的一条记录长什么样子，其中提到了记录是存储在「页」中的，那么记录在页中是如何存储的呢？本文进一步介绍 InnoDB 中「页」的相关内容。
 
 ## 2、InnoDB数据页
 ### 2-1、概念&分类
