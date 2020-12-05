@@ -69,6 +69,8 @@
 - [ab压力测试](https://github.com/xinput123/about-me/blob/main/%E6%B5%8B%E8%AF%95/ab%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95.md)
 - [Postman断言Tests](https://github.com/xinput123/about-me/blob/main/%E6%B5%8B%E8%AF%95/Postman%E6%96%AD%E8%A8%80Tests.md)
 
+## 工具
+- [iterm快捷键](https://github.com/xinput123/about-me/blob/main/%E5%B7%A5%E5%85%B7/iterm%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 
 
 
