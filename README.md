@@ -36,10 +36,6 @@
 - [发布项目到Maven中央仓库](https://github.com/xinput123/about-me/blob/main/Maven/%E5%8F%91%E5%B8%83%E9%A1%B9%E7%9B%AE%E5%88%B0Maven%E4%B8%AD%E5%A4%AE%E4%BB%93%E5%BA%93.md)
 - [发布项目到Maven中央库遇到的问题](https://github.com/xinput123/about-me/blob/main/Maven/%E5%8F%91%E5%B8%83%E9%A1%B9%E7%9B%AE%E5%88%B0Maven%E4%B8%AD%E5%A4%AE%E5%BA%93%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98.md)
 
-
-## Redis
-
-
 ## SpringCloud 示例
 - [高可用服务注册中心](https://github.com/xinput123/about-me/blob/main/SpringCloud/%E9%AB%98%E5%8F%AF%E7%94%A8%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83.md)
 - [服务注册与发现以及安全认证](https://github.com/xinput123/about-me/blob/main/SpringCloud/%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0%E4%BB%A5%E5%8F%8A%E5%AE%89%E5%85%A8%E8%AE%A4%E8%AF%81.md)
@@ -66,7 +62,7 @@
 - [Yapi使用](https://github.com/xinput123/about-me/blob/main/%E5%B7%A5%E5%85%B7/Yapi.md)
 
 ## 数据库
-## MySQL
+### MySQL
 - [MySQL语法问题](https://github.com/xinput123/about-me/blob/main/MySQL/mysql%E8%AF%AD%E6%B3%95%E9%97%AE%E9%A2%98.md)
 - [MySQL重连问题](https://github.com/xinput123/about-me/blob/main/MySQL/MySQL%E9%87%8D%E8%BF%9E%E9%97%AE%E9%A2%98.md)
 - [MySQL实战命令](https://github.com/xinput123/about-me/blob/main/MySQL/MySQL%E5%AE%9E%E6%88%98%E5%91%BD%E4%BB%A4.md)
@@ -74,10 +70,17 @@
 - [InnoDB的数据页](https://github.com/xinput123/about-me/blob/main/MySQL/InnoDB%E7%9A%84%E6%95%B0%E6%8D%AE%E9%A1%B5.md)
 - [InnoDB的一条记录长什么样子](https://github.com/xinput123/about-me/blob/main/MySQL/InnoDB%E7%9A%84%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E9%95%BF%E4%BB%80%E4%B9%88%E6%A0%B7%E5%AD%90.md)
 
+### Orale
+- [Oracle表空间释放](https://github.com/xinput123/about-me/blob/main/Oracle/Oracle%E8%A1%A8%E7%A9%BA%E9%97%B4%E9%87%8A%E6%94%BE.md)
+- [Oracle查看表空间大小](https://github.com/xinput123/about-me/blob/main/Oracle/Oracle%E6%9F%A5%E7%9C%8B%E8%A1%A8%E7%A9%BA%E9%97%B4%E5%A4%A7%E5%B0%8F.md)
+- [ORACLE容易忽视的问题](https://github.com/xinput123/about-me/blob/main/Oracle/ORACLE%E5%AE%B9%E6%98%93%E5%BF%BD%E8%A7%86%E7%9A%84%E9%97%AE%E9%A2%98.md)
+- [查看oracle锁](https://github.com/xinput123/about-me/blob/main/Oracle/%E6%9F%A5%E7%9C%8Boracle%E9%94%81.md)
+- [archivelog文件过大DB_RECOVERY_FILE_DEST_SIZE不够](https://github.com/xinput123/about-me/blob/main/Oracle/archivelog%E6%96%87%E4%BB%B6%E8%BF%87%E5%A4%A7DB_RECOVERY_FILE_DEST_SIZE%E4%B8%8D%E5%A4%9F.md)
+- [查看oracle锁](https://github.com/xinput123/about-me/blob/main/Oracle/%E6%9F%A5%E7%9C%8Boracle%E9%94%81.md)
+- [bat自动备份oracle](https://github.com/xinput123/about-me/blob/main/Oracle/bat%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BDoracle.md)
+- [bat自动删除7天前归档](https://github.com/xinput123/about-me/blob/main/Oracle/bat%E8%87%AA%E5%8A%A8%E5%88%A0%E9%99%A47%E5%A4%A9%E5%89%8D%E5%BD%92%E6%A1%A3.md)
 
-
-
-
+### Redis
 
 
 
