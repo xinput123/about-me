@@ -71,7 +71,7 @@
 
 ## 工具
 - [iterm快捷键](https://github.com/xinput123/about-me/blob/main/%E5%B7%A5%E5%85%B7/iterm%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
-
+- [Yapi使用](https://github.com/xinput123/about-me/blob/main/%E5%B7%A5%E5%85%B7/Yapi.md)
 
 
 
