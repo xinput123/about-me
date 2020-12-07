@@ -13,6 +13,7 @@ pyenv -v # 安装之后查看 pyenv 版本，确认是否安装成功
 
 ## 3、安装&管理多个Python
 ```
+pyenv install -l  # 查看 pyenv 可以安装哪些Python版本
 pyenv install 2.7.15
 pyenv install 3.7.3
 pyenv versions # 所有已经安装的版本
