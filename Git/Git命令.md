@@ -4,10 +4,10 @@
 git config --list | grep alias
 
 // 拉取代码
-git alias fu "fetch upstream" 
+git config --global alias.fu "fetch upstream"
 
 // 合并代码
-git alias mu "merge upstream/master"
+git config --global alias.mu "upstream/master"
 
 // 查看状态
 git config --global alias.st status
