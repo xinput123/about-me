@@ -34,13 +34,6 @@
 - [序列化和反序列化](https://github.com/xinput123/about-me/blob/main/Java/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md)
 - [单例和反序列化](https://github.com/xinput123/about-me/blob/main/Java/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%8D%95%E4%BE%8B%E5%92%8C%E5%BA%8F%E5%88%97%E5%8C%96.md)
 
-### Java泛型
-- [泛型中extends和super]()
-- [Java的类型擦除]()
-- []()
-- []()
-- []()
-
 ### Java源码
 
 ### JVM
