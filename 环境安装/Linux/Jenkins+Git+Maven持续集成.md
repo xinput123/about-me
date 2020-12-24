@@ -3,16 +3,16 @@ centos 7，生产环境建议Jenkins单独部署，内存大一点
 Git、Tomcat、Jenkins
 
 ### Jdk安装
-[jdk安装](https://www.jianshu.com/p/2f2a6d4858a4)
+[jdk安装](https://github.com/xinput123/about-me/blob/main/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/Linux/jdk%E5%AE%89%E8%A3%85.md)
 
 ### Maven 安装
-[Maven 安装](https://www.jianshu.com/p/73cb4de0fa1e)
+[Maven 安装](https://github.com/xinput123/about-me/blob/main/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/Linux/Maven%E5%AE%89%E8%A3%85.md)
 
 ### Tomcat 安装
-[Tomcat 安装](https://www.jianshu.com/p/359344839d45)
+[Tomcat 安装](https://github.com/xinput123/about-me/blob/main/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/Linux/Tomcat%E5%AE%89%E8%A3%85.md)
 
 ### Jenkins安装
-[Jenkins安装](https://www.jianshu.com/p/0a993ba3825d)
+[Jenkins安装](https://github.com/xinput123/about-me/blob/main/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/Linux/Jenkins%E5%AE%89%E8%A3%85.md)
 
 ### 安装插件
 - Email Extension Plugin (邮件通知)
