@@ -43,10 +43,6 @@
 
 ### JUC
 
-## Mac
-- [Mac下python多环境管理-pyenv](https://github.com/xinput123/about-me/blob/main/Mac/Mac%E4%B8%8Bpython%E5%A4%9A%E7%8E%AF%E5%A2%83%E7%AE%A1%E7%90%86-pyenv.md)
-- [删除Mac右上角状态栏图标](https://github.com/xinput123/about-me/blob/main/Mac/%E5%88%A0%E9%99%A4Mac%E5%8F%B3%E4%B8%8A%E8%A7%92%E7%8A%B6%E6%80%81%E6%A0%8F%E5%9B%BE%E6%A0%87.md)
-
 ## Maven
 - [使用Maven管理项目版本号](https://github.com/xinput123/about-me/blob/main/Maven/%E4%BD%BF%E7%94%A8Maven%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE%E7%89%88%E6%9C%AC%E5%8F%B7.md)
 - [Maven问题集合](https://github.com/xinput123/about-me/blob/main/Maven/Maven%E9%97%AE%E9%A2%98%E9%9B%86%E5%90%88.md)
