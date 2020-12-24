@@ -3,6 +3,9 @@
 
 这里是我平时记录和转载的一些文章，同时也记录着自己的个人爱好，希望来着这里的人可以找到一些感兴趣的点。
 
+
+### - [环境安装](https://github.com/xinput123/about-me/blob/main/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.md)
+
 ## Docker
 - [Centos系列安装Docker](https://github.com/xinput123/about-me/blob/main/Docker/Centos%E7%B3%BB%E5%88%97%E5%AE%89%E8%A3%85Docker.md)
 - [Centos7上安装升级Docker](https://github.com/xinput123/about-me/blob/main/Docker/Centos7%E4%B8%8A%E5%AE%89%E8%A3%85%E5%8D%87%E7%BA%A7Docker.md)
@@ -105,3 +108,4 @@
 - [大型网站系统架构的演化](https://github.com/xinput123/about-me/blob/main/%E7%AC%94%E8%AE%B0/%E5%A4%A7%E5%9E%8B%E7%BD%91%E7%AB%99%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E7%9A%84%E6%BC%94%E5%8C%96.md)
 - [图片集群分布式存储和负载均衡](https://github.com/xinput123/about-me/blob/main/%E7%AC%94%E8%AE%B0/%E5%9B%BE%E7%89%87%E9%9B%86%E7%BE%A4%E5%88%86%E5%B8%83%E5%BC%8F%E5%AD%98%E5%82%A8%E5%92%8C%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1.md)
 - [为什么要学习操作系统课程](https://github.com/xinput123/about-me/blob/main/%E7%AC%94%E8%AE%B0/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%AD%A6%E4%B9%A0%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B.md)
+
