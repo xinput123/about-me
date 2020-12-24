@@ -30,3 +30,45 @@ private transient Thread exclusiveOwnerThread; // 继承自AbstractOwnableSynchr
 
 AbstractQueuedSynchronizer 的等待队列示意如下所示，注意了，之后分析过程中所说的 queue，也就是**阻塞队列不包含 head，不包含 head，不包含 head**。
 
+![](https://github.com/xinput123/about-me/blob/main/Java/Java%E5%B9%B6%E5%8F%91/image/aqs-0.png
+
+等待队列中每个线程被包装成一个 Node 实例，数据结构是链表，一起看看源码吧：
+
+```
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
