@@ -35,54 +35,20 @@
 ### JUC
 
 
-
-## SpringCloud 示例
-- [高可用服务注册中心](https://github.com/xinput123/about-me/blob/main/SpringCloud/%E9%AB%98%E5%8F%AF%E7%94%A8%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83.md)
-- [服务注册与发现以及安全认证](https://github.com/xinput123/about-me/blob/main/SpringCloud/%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0%E4%BB%A5%E5%8F%8A%E5%AE%89%E5%85%A8%E8%AE%A4%E8%AF%81.md)
-- [使用Hystrix实现单个方法的fallback](https://github.com/xinput123/about-me/blob/main/SpringCloud/%E4%BD%BF%E7%94%A8Hystrix%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%B8%AA%E6%96%B9%E6%B3%95%E7%9A%84fallback.md)
-- [Feign的继承特性](https://github.com/xinput123/about-me/blob/main/SpringCloud/Feign%E7%9A%84%E7%BB%A7%E6%89%BF%E7%89%B9%E6%80%A7.md)
-- [FeignClient传输实体类(包括GET、POST)](https://github.com/xinput123/about-me/blob/main/SpringCloud/FeignClient%E4%BC%A0%E8%BE%93%E5%AE%9E%E4%BD%93%E7%B1%BB(%E5%8C%85%E6%8B%ACGET%E3%80%81POST).md)
-- [Feign整合Ribbon第一次请求失败的方法](https://github.com/xinput123/about-me/blob/main/SpringCloud/Feign%E6%95%B4%E5%90%88Ribbon%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%B7%E6%B1%82%E5%A4%B1%E8%B4%A5%E7%9A%84%E6%96%B9%E6%B3%95.md)
-- [SpringCloud服务注册在Docker中](https://github.com/xinput123/about-me/blob/main/SpringCloud/SpringCloud%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E5%9C%A8Docker%E4%B8%AD.md)
-- [SpringCloud注解小记](https://github.com/xinput123/about-me/blob/main/SpringCloud/SpringCloud%E6%B3%A8%E8%A7%A3%E5%B0%8F%E8%AE%B0.md)
-
-## Zookeeper
-- [Zookeeper安装与启动](https://github.com/xinput123/about-me/blob/main/Zookeeper/Zookeeper%E5%AE%89%E8%A3%85%E4%B8%8E%E5%90%AF%E5%8A%A8.md)
-- [安装配置一个Zookeeper生产环境](https://github.com/xinput123/about-me/blob/main/Zookeeper/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E4%B8%80%E4%B8%AAZookeeper%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83.md)
-- [Zookeeper集群模式搭建](https://github.com/xinput123/about-me/blob/main/Zookeeper/Zookeeper%E9%9B%86%E7%BE%A4%E6%A8%A1%E5%BC%8F%E6%90%AD%E5%BB%BA.md)
-- [Zookeeper命令](https://github.com/xinput123/about-me/blob/main/Zookeeper/Zookeeper%E5%91%BD%E4%BB%A4.md)
+### -[SpringCloud]()
 
 
-## 测试
-- [ab压力测试](https://github.com/xinput123/about-me/blob/main/%E6%B5%8B%E8%AF%95/ab%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95.md)
-- [Postman断言Tests](https://github.com/xinput123/about-me/blob/main/%E6%B5%8B%E8%AF%95/Postman%E6%96%AD%E8%A8%80Tests.md)
+### - [Zookeeper]()
 
-## 工具
-- [iterm快捷键](https://github.com/xinput123/about-me/blob/main/%E5%B7%A5%E5%85%B7/iterm%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
-- [Yapi使用](https://github.com/xinput123/about-me/blob/main/%E5%B7%A5%E5%85%B7/Yapi.md)
+### - [测试]()
 
-## 数据库
-### MySQL
-- [MySQL语法问题](https://github.com/xinput123/about-me/blob/main/MySQL/mysql%E8%AF%AD%E6%B3%95%E9%97%AE%E9%A2%98.md)
-- [MySQL重连问题](https://github.com/xinput123/about-me/blob/main/MySQL/MySQL%E9%87%8D%E8%BF%9E%E9%97%AE%E9%A2%98.md)
-- [MySQL实战命令](https://github.com/xinput123/about-me/blob/main/MySQL/MySQL%E5%AE%9E%E6%88%98%E5%91%BD%E4%BB%A4.md)
-- [InnoDB计算一颗B+树存放多少行数据](https://github.com/xinput123/about-me/blob/main/MySQL/InnoDB%E8%AE%A1%E7%AE%97%E4%B8%80%E9%A2%97B%2B%E6%A0%91%E5%AD%98%E6%94%BE%E5%A4%9A%E5%B0%91%E8%A1%8C%E6%95%B0%E6%8D%AE.md)
-- [InnoDB的数据页](https://github.com/xinput123/about-me/blob/main/MySQL/InnoDB%E7%9A%84%E6%95%B0%E6%8D%AE%E9%A1%B5.md)
-- [InnoDB的一条记录长什么样子](https://github.com/xinput123/about-me/blob/main/MySQL/InnoDB%E7%9A%84%E4%B8%80%E6%9D%A1%E8%AE%B0%E5%BD%95%E9%95%BF%E4%BB%80%E4%B9%88%E6%A0%B7%E5%AD%90.md)
+###- [工具]()
 
-### Oracle
-- [Oracle表空间释放](https://github.com/xinput123/about-me/blob/main/Oracle/Oracle%E8%A1%A8%E7%A9%BA%E9%97%B4%E9%87%8A%E6%94%BE.md)
-- [Oracle查看表空间大小](https://github.com/xinput123/about-me/blob/main/Oracle/Oracle%E6%9F%A5%E7%9C%8B%E8%A1%A8%E7%A9%BA%E9%97%B4%E5%A4%A7%E5%B0%8F.md)
-- [ORACLE容易忽视的问题](https://github.com/xinput123/about-me/blob/main/Oracle/ORACLE%E5%AE%B9%E6%98%93%E5%BF%BD%E8%A7%86%E7%9A%84%E9%97%AE%E9%A2%98.md)
-- [查看oracle锁](https://github.com/xinput123/about-me/blob/main/Oracle/%E6%9F%A5%E7%9C%8Boracle%E9%94%81.md)
-- [archivelog文件过大DB_RECOVERY_FILE_DEST_SIZE不够](https://github.com/xinput123/about-me/blob/main/Oracle/archivelog%E6%96%87%E4%BB%B6%E8%BF%87%E5%A4%A7DB_RECOVERY_FILE_DEST_SIZE%E4%B8%8D%E5%A4%9F.md)
-- [查看oracle锁](https://github.com/xinput123/about-me/blob/main/Oracle/%E6%9F%A5%E7%9C%8Boracle%E9%94%81.md)
-- [bat自动备份oracle](https://github.com/xinput123/about-me/blob/main/Oracle/bat%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BDoracle.md)
-- [bat自动删除7天前归档](https://github.com/xinput123/about-me/blob/main/Oracle/bat%E8%87%AA%E5%8A%A8%E5%88%A0%E9%99%A47%E5%A4%A9%E5%89%8D%E5%BD%92%E6%A1%A3.md)
+### - [MySQL]()
 
-### Redis
-- [Redis命令大全](http://www.redis.cn/commands.html#)
-- [Redis命令手册](https://www.redis.net.cn/order/)
+### - [Oracle]()
 
-### - [文章]()
+### - [Redis]()
+
+### - [文章](https://github.com/xinput123/about-me/blob/main/%E6%96%87%E7%AB%A0/%E6%96%87%E7%AB%A0.md)
 
