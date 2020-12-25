@@ -129,6 +129,59 @@ Tips: 这里重申一下，要看懂这个，必须要先看懂上一篇关于 [
 
 > - 2、ArrayBlockingQueue 采用这种方式实现了生产者-消费者，所以请只把这个例子当做学习例子，实际生产中可以直接使用 ArrayBlockingQueue
 
+我们常用 obj.wait()，obj.notify() 或 obj.notifyAll() 来实现相似的功能，但是，它们是基于对象的监视器锁的。需要深入了解这几个方法的读者，可以参考另一篇文章 [《深入分析 java 8 编程语言规范：Threads and Locks》](https://github.com/xinput123/about-me/blob/main/Java/Java%E5%B9%B6%E5%8F%91/java8%20%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83%EF%BC%9AThreads%20and%20Locks.md)。而这里说的 Condition 是基于 ReentrantLock 实现的，而 ReentrantLock 是依赖于 AbstractQueuedSynchronizer 实现的。
+
+在往下看之前，读者心里要有一个整体的概念。condition 是依赖于 ReentrantLock  的，不管是调用 await 进入等待还是 signal 唤醒，**都必须获取到锁才能进行操作**。
+
+每个 ReentrantLock  实例可以通过调用多次 newCondition 产生多个 ConditionObject 的实例：
+
+```
+final ConditionObject newCondition() {
+    // 实例化一个 ConditionObject
+    return new ConditionObject();
+}
+```
+
+我们首先来看下我们关注的 Condition 的实现类 AbstractQueuedSynchronizer 类中的 ConditionObject。
+
+```
+public class ConditionObject implements Condition, java.io.Serializable {
+        private static final long serialVersionUID = 1173984872572414699L;
+        // 条件队列的第一个节点
+        //     不要管这里的关键字 transient，是不参与序列化的意思
+        private transient Node firstWaiter;
+        // 条件队列的最后一个节点
+        private transient Node lastWaiter;
+        ......
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
