@@ -49,7 +49,7 @@ static final class Node {
     // 官方的描述是，其表示当前node的后继节点对应的线程需要被唤醒
     static final int SIGNAL    = -1;
     
-    // 本文不分析condition，所以略过吧，下一篇文章会介绍这个
+    // 本文不分析condition，所以略过吧，下一篇文章会介绍这个,条件队列
     static final int CONDITION = -2;
     
     // 指示下一个acquireShared应该无条件传播， 本文不分析
