@@ -6,7 +6,6 @@
 2. 深入分析 AbstractQueuedSynchronizer 中的 ConditionObject
 3. 深入理解 Java 线程中断和 InterruptedException 异常
 
-基本上本文把以上几点都说清楚了，我假设读者看过[上一篇文章中对 AbstractQueuedSynchronizer 的介绍 ](http://hongjiev.github.io/2017/06/16/AbstractQueuedSynchronizer/)，当然如果你已经熟悉 AQS 中的独占锁了，那也可以直接看这篇。各小节之间基本上没什么关系，大家可以只关注自己感兴趣的部分。
 
 <!-- more -->
 
@@ -83,6 +82,7 @@ static final class NonfairSync extends Sync {
         return nonfairTryAcquire(acquires);
     }
 }
+
 /**
  * Performs non-fair tryLock.  tryAcquire is implemented in
  * subclasses, but both need nonfair try for trylock method.
@@ -119,7 +119,7 @@ final boolean nonfairTryAcquire(int acquires) {
 
 ## Condition
 
-Tips: 这里重申一下，要看懂这个，必须要先看懂上一篇关于 [AbstractQueuedSynchronizer](http://hongjiev.github.io/2017/06/16/AbstractQueuedSynchronizer/) 的介绍，或者你已经有相关的知识了，否则这节肯定是看不懂的。
+Tips: 这里重申一下，要看懂这个，必须要先看懂上一篇关于 [AbstractQueuedSynchronizer](https://github.com/xinput123/about-me/blob/main/Java/Java%E5%B9%B6%E5%8F%91/%E4%B8%80%E8%A1%8C%E4%B8%80%E8%A1%8C%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E6%B8%85%E6%A5%9AAbstractQueuedSynchronizer.md) 的介绍，或者你已经有相关的知识了，否则这节肯定是看不懂的。
 
 我们先来看看 Condition 的使用场景，Condition 经常可以用在**生产者-消费者**的场景中，请看 Doug Lea 给出的这个例子：
 
@@ -174,7 +174,7 @@ class BoundedBuffer {
 >
 > 2、ArrayBlockingQueue 采用这种方式实现了生产者-消费者，所以请只把这个例子当做学习例子，实际生产中可以直接使用 ArrayBlockingQueue
 
-我们常用 obj.wait()，obj.notify() 或 obj.notifyAll() 来实现相似的功能，但是，它们是基于对象的监视器锁的。需要深入了解这几个方法的读者，可以参考我的另一篇文章《[深入分析 java 8 编程语言规范：Threads and Locks](http://hongjiev.github.io/2017/07/05/Threads-And-Locks-md/)》。而这里说的 Condition 是基于 ReentrantLock 实现的，而 ReentrantLock 是依赖于 AbstractQueuedSynchronizer 实现的。
+我们常用 obj.wait()，obj.notify() 或 obj.notifyAll() 来实现相似的功能，但是，它们是基于对象的监视器锁的。需要深入了解这几个方法的读者，可以参考《[深入分析 java 8 编程语言规范：Threads and Locks](https://github.com/xinput123/about-me/blob/main/Java/Java%E5%B9%B6%E5%8F%91/%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90%2Bjava%2B8%2B%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83%EF%BC%9AThreads%2Band%2BLocks.md)》。而这里说的 Condition 是基于 ReentrantLock 实现的，而 ReentrantLock 是依赖于 AbstractQueuedSynchronizer 实现的。
 
 在往下看之前，读者心里要有一个整体的概念。condition 是依赖于 ReentrantLock  的，不管是调用 await 进入等待还是 signal 唤醒，**都必须获取到锁才能进行操作**。
 
