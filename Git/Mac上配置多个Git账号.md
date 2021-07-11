@@ -14,7 +14,7 @@ git config --global --unset user.email
 ### 4、给不同的git账号生成ssh-key: github和gitlab
 ```
 ### github 账号
-ssh-keygen -t rsa -C "yuan_lai1234@163.com"
+ssh-keygen -t rsa -f ~/.ssh/id_rsa_github -C "yuan_lai1234@163.com"
 
 ### gitlab 账号
 ssh-keygen -t rsa -f ~/.ssh/id_rsa_gitlab -C "yuan_lai1234@163.com"
@@ -25,7 +25,7 @@ ssh-keygen -t rsa -f ~/.ssh/id_rsa_gitlab -C "yuan_lai1234@163.com"
 ### 5、添加到ssh-agent信任列表
 ```
 # 添加github的到信任列表
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa_github
 
 # 添加gitlab的到信任列表
 ssh-add ~/.ssh/id_rsa_gitlab
